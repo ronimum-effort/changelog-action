@@ -22,7 +22,7 @@ def strip_commits(commits):
 def overwrite_changelog(commits):
     print ("Writing the following commits:\n{}".format(commits))
     with open("/github/home/CHANGELOG.md", "w+") as file:
-        file.write('# Changelog\n\n##Features\n\n')
+        file.write('# Changelog\n\n## Features\n\n')
         for feat in commits:
             if re.findall(r'^feat', feat):
                 file.write('* {}\n'.format(feat))
@@ -34,7 +34,7 @@ def overwrite_changelog(commits):
         for perf in commits:
             if re.findall(r'^perf', perf):
                 file.write('* {}\n'.format(perf))
-        file.write("\n##Other\n\n")
+        file.write("\n## Other\n\n")
         for other in commits:
             if re.findall(r'^(refactor|test|ci)', other):
                 file.write('* {}\n'.format(other))
