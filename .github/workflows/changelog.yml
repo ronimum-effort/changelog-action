@@ -1,0 +1,40 @@
+name: Changelog Generator
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  generate:
+    name: Changelog Generator
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with: 
+          fetch-depth: 0
+      - name: Create Changelog
+        uses: ./docker
+      - name: Upload Changelog
+        uses: actions/upload-artifact@v2
+        with:
+          name: changelog
+          path: /home/runner/work/_temp/_github_home/CHANGELOG.md
+  upload:
+    name: Upload Changelog to Pull Request
+    runs-on: ubuntu-20.04
+    needs: generate
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: Download the generated changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
+      - name: Add Generated changelog to Pull Request
+        run: |
+          git config --global user.name "ndlib-git"
+          git config --global user.email "ndlib-git@users.noreply.github.com"
+          git add --all
+          git commit -m "docs: add generated Changelog"
+          git push
