@@ -14,7 +14,7 @@ stderr=subprocess.STDOUT)
 
 def strip_commits(commits):
     # Get the following prefixes from Conventional Commit Specification:
-    # fix, feat, ci, refactor, perf, test
+    # fix, feat, ci, refactor, perf, test 
     output = []
     for line in commits:
         if re.findall(r'^(fix|feat|ci|refactor|perf|test)', line):
@@ -40,7 +40,7 @@ def overwrite_changelog(commits):
         for other in commits:
             if re.findall(r'^(refactor|test|ci)', other):
                 file.write('* {}\n'.format(other))
-        file.write('\n\n > Changelog automatically generated via GitHub Actions')
+        file.write('\n\n > Changelog automatically generated via GitHub Actions\n\n')
         file.close()
     return
 

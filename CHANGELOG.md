@@ -1,32 +1,19 @@
-# Changelog Thu Jan 28 19:43:21 2021 
+# Changelog Thu Jan 28 20:25:28 2021 
 
 ## Features
 
-* feat: update changelog to only new commits
+* feat: append change log at top of file
 
 ## Bug Fixes
 
+* fix: change formatting of changelog
 
 ## Performance Improvements
 
 
 ## Other
 
-
-
- > Changelog automatically generated via GitHub Actionsthod
-* fix: fix date output object type
-* fix: fix formatting issues with changelog
-* fix: stop truncation of changelog
-* fix: update location of python script
-
-## Performance Improvements
-
-
-## Other
-
-* ci:
-* ci: add git to changelog generator
 
 
  > Changelog automatically generated via GitHub Actions
+
