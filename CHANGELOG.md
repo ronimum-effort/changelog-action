@@ -17,3 +17,21 @@
 
  > Changelog automatically generated via GitHub Actions
 
+# Changelog Thu Jan 28 21:08:03 2021 
+
+## Features
+
+
+## Bug Fixes
+
+* fix: address changelog appending issue
+
+## Performance Improvements
+
+
+## Other
+
+
+
+ > Changelog automatically generated via GitHub Actions
+
