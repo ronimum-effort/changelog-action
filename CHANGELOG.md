@@ -1,8 +1,7 @@
-# Changelog Thu Jan 28 19:43:21 2021 
+# Changelog Thu Jan 28 20:03:07 2021 
 
 ## Features
 
-* feat: update changelog to only new commits
 
 ## Bug Fixes
 
@@ -12,9 +11,10 @@
 
 ## Other
 
+* refactor: change python file open flag
 
 
- > Changelog automatically generated via GitHub Actionsthod
+ > Changelog automatically generated via GitHub Actionsionsthod
 * fix: fix date output object type
 * fix: fix formatting issues with changelog
 * fix: stop truncation of changelog
