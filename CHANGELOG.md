@@ -15,6 +15,3 @@
 
 
  > Changelog automatically generated via GitHub Actions
-
-log automatically generated via GitHub Actions
-
