@@ -35,3 +35,21 @@
 
  > Changelog automatically generated via GitHub Actions
 
+# Changelog Thu Jan 28 21:19:22 2021 
+
+## Features
+
+* feat: append at beginning of changelog
+
+## Bug Fixes
+
+
+## Performance Improvements
+
+
+## Other
+
+
+
+ > Changelog automatically generated via GitHub Actions
+
