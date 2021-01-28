@@ -1,14 +1,20 @@
-# Changelog Thu Jan 28 14:32:16 2021 
+# Changelog Thu Jan 28 19:43:21 2021 
 
 ## Features
 
-* feat: add changelog action
-* feat: add date to changelog
-* feat: append the changelog rather than truncate
+* feat: update changelog to only new commits
 
 ## Bug Fixes
 
-* fix: change string formatting method
+
+## Performance Improvements
+
+
+## Other
+
+
+
+ > Changelog automatically generated via GitHub Actionsthod
 * fix: fix date output object type
 * fix: fix formatting issues with changelog
 * fix: stop truncation of changelog
