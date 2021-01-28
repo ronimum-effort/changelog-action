@@ -40,7 +40,7 @@ def overwrite_changelog(commits):
         for other in commits:
             if re.findall(r'^(refactor|test|ci)', other):
                 file.write('* {}\n'.format(other))
-        file.write('\n\n > Changelog automatically generated via GitHub Actions')
+        file.write('\n\n > Changelog automatically generated via GitHub Actions\n\n')
         file.close()
     return
 
