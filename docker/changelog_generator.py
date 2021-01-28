@@ -3,9 +3,10 @@ import shlex
 import subprocess
 import time
 import datetime
+import os
 
 def get_commit_log():
-    output = subprocess.check_output(shlex.split('git log --pretty=%s --color'),
+    output = subprocess.check_output(shlex.split(f"git log origin/{os.environ['GITHUB_BASE_REF']}..origin/{os.environ['GITHUB_HEAD_REF']} --pretty=%s --color"),
 stderr=subprocess.STDOUT)
     output = output.decode('ascii')
     output = output.split('\n')
