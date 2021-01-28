@@ -1,4 +1,4 @@
-# Changelog Thu Jan 28 20:31:15 2021 
+# Changelog Thu Jan 28 20:38:50 2021 
 
 ## Features
 
@@ -7,13 +7,16 @@
 
 * fix: update changelog format
 
-# Changelog Thu Jan 28 20:25:28 2021 
+## Performance Improvements
 
-## Features
 
-* feat: append change log at top of file
+## Other
 
-## Bug Fixes
+
+
+ > Changelog automatically generated via GitHub Actions
+
+g Fixes
 
 * fix: change formatting of changelog
 
