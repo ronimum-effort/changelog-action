@@ -1,12 +1,11 @@
-# Changelog Thu Jan 28 20:25:28 2021 
+# Changelog Thu Jan 28 21:00:35 2021 
 
 ## Features
 
-* feat: append change log at top of file
 
 ## Bug Fixes
 
-* fix: change formatting of changelog
+* fix: update instructions
 
 ## Performance Improvements
 
@@ -16,4 +15,6 @@
 
 
  > Changelog automatically generated via GitHub Actions
+
+angelog automatically generated via GitHub Actions
 
