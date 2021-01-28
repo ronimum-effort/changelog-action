@@ -29,4 +29,20 @@
 * ci: add git to changelog generator
 
 
+ > Changelog automatically generated via GitHub Actions# Changelog Thu Jan 28 19:59:18 2021 
+
+## Features
+
+
+## Bug Fixes
+
+
+## Performance Improvements
+
+
+## Other
+
+* refactor: change python file open flag
+
+
  > Changelog automatically generated via GitHub Actions
