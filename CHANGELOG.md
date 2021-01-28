@@ -1,9 +1,10 @@
-# Changelog Thu Jan 28 14:21:43 2021 
+# Changelog Thu Jan 28 14:32:16 2021 
 
 ## Features
 
 * feat: add changelog action
 * feat: add date to changelog
+* feat: append the changelog rather than truncate
 
 ## Bug Fixes
 
@@ -18,6 +19,7 @@
 
 ## Other
 
+* ci:
 * ci: add git to changelog generator
 
 

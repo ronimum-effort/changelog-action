@@ -18,7 +18,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: /home/runner/work/_temp/_github_home/CHANGELOG.md
+          path: CHANGELOG.md
   upload:
     name: Upload Changelog to Pull Request
     runs-on: ubuntu-20.04
