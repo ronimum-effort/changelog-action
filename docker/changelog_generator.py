@@ -24,7 +24,7 @@ def strip_commits(commits):
 def overwrite_changelog(commits):
     print ("Writing the following commits:\n{}".format(commits))
     with open("CHANGELOG.md", "a") as file:
-        file.seek(1)
+        file.seek(-1)
         file.write('# Changelog {} \n\n## Features\n\n'.format((datetime.datetime.now().ctime())))
         for feat in commits:
             if re.findall(r'^feat', feat):
