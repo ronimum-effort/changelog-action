@@ -53,3 +53,22 @@
 
  > Changelog automatically generated via GitHub Actions
 
+# Changelog Thu Jan 28 21:23:47 2021 
+
+## Features
+
+* feat: append at beginning of changelog
+
+## Bug Fixes
+
+* fix: fix stream location
+
+## Performance Improvements
+
+
+## Other
+
+
+
+ > Changelog automatically generated via GitHub Actions
+
