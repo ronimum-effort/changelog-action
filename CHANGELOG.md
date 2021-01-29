@@ -93,3 +93,21 @@
 
  > Changelog automatically generated via GitHub Actions
 
+# Changelog Fri Jan 29 13:16:28 2021 
+
+## Features
+
+
+## Bug Fixes
+
+* fix: file appending
+
+## Performance Improvements
+
+
+## Other
+
+
+
+ > Changelog automatically generated via GitHub Actions
+
