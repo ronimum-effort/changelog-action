@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/ronimum-effort/changelog-action/compare/v1.1.0...v1.1.1) (2021-02-26)
+
+
+### Bug Fixes
+
+* fix docs ([5d2af9a](https://github.com/ronimum-effort/changelog-action/commit/5d2af9aaa37cf335766ac2d4ba504fa2325b0cef))
+
 ## 1.1.0 (2021-02-26)
 
 
